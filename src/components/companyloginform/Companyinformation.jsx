@@ -8,7 +8,7 @@ import PhoneInput from "react-phone-number-input";
 import "react-phone-number-input/style.css";
 import { useState } from "react";
 import industry from "../data/industry";
-import './companyinformation.css';
+import './Companyinformation.css';
 const steps = ["Company Information", "Industry Sector", "Recruitment Details"];
 export default function Companyinformation() {
   const [currentStep, setCurrentStep] = useState(0);
