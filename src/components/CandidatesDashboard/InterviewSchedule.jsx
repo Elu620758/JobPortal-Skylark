@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Card, Badge, Dropdown } from 'react-bootst
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import interviewInvite1 from '../../assets/image/interviewInvite1.jpg';
-import interviewInvite2 from '../../assets/image/interviewInvite2.jpg';
+import interviewInvite2 from '../../assets/image/InterviewInvite2.jpg';
 import candidateImage from '../../assets/image/candidateImage.jpg';
 import { FaChevronDown } from 'react-icons/fa';
 import './InterviewSchedule.css';
