@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Badge, Dropdown, ButtonGroup, DropdownButton
 import { FaChevronDown } from 'react-icons/fa';
 import candidateImage from '../../assets/image/candidateImage.jpg'
 import interviewInvite1 from '../../assets/image/interviewInvite1.jpg'
-import interviewInvite2 from '../../assets/image/interviewInvite2.jpg'
+import interviewInvite2 from '../../assets/image/InterviewInvite2.jpg'
 import './Notifications.css'
 import Infosys from '../../assets/logo/Infosys.png'
 import { PiBriefcase } from "react-icons/pi";
