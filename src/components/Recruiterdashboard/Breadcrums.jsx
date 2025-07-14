@@ -2,7 +2,7 @@ import "./breadcrums.css";
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Container } from "react-bootstrap";
-import "./Breadcrums.css"; // Ensure you create and import this CSS
+import "./breadcrums.css"; // Ensure you create and import this CSS
 
 export default function Breadcrums() {
   const location = useLocation();
