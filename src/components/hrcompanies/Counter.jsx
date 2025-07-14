@@ -18,42 +18,42 @@ const couterData = [
     img: img2,
     num: 2,
     title: "Hiring Companies ",
-    value:2500,
+    value: 2500,
   },
   {
     id: 2,
     img: img1,
     num: 2,
     title: "Total Recruiters ",
-    value:3600,
+    value: 3600,
   },
   {
     id: 3,
     img: img3,
     num: 2,
     title: "Open Positions ",
-    value:4000,
+    value: 4000,
   },
   {
     id: 4,
     img: img4,
     num: 2,
     title: "Total Candidates ",
-    value:5700,
+    value: 5700,
   },
   {
     id: 5,
     img: img5,
     num: 2,
     title: "Hiring Companies ",
-    value:1000,
+    value: 1000,
   },
   {
     id: 6,
     img: img6,
     num: 2,
     title: "Position Closed ",
-    value:36600,
+    value: 36600,
   },
 ];
 
@@ -100,51 +100,53 @@ export default function Counter() {
                 <div className="image mb-2">
                   <img src={data.img} alt="" style={{ width: '40px', height: '40px' }} />
                 </div>
-                <span className="fw-bold"><CountUp end={data.value}/></span>
+                <span className="fw-bold"><CountUp end={data.value} /></span>
                 <h6 className="mt-2">{data.title}</h6>
               </div>
             </div>
           ))}
         </div>
-        <div className="top-sport ms-0 col-5">
-          <div className="sport text-center ">
-            <div className="header text-white fw-bold">
-              <h6>TOP HIRING COMPANIES</h6>
-            </div>
 
-            <Slider {...settings}>
-              {jobData.map((data, index) => (
-                <div key={index} className="contant">
-                  <div className="company-logo w-auto">
-                    <img
-                      className=""
-                      src={data.imgURL}
-                      alt="skylark"
-                      style={{ maxHeight: "60px" }}
-                    />
+        <Container>
+          <div className="top-sport ms-0 col-5">
+            <div className="sport text-center ">
+              <div className="header text-white fw-bold">
+                <h6>TOP HIRING COMPANIES</h6>
+              </div>
+              <Slider {...settings}>
+                {jobData.map((data, index) => (
+                  <div key={index} className="contant">
+                    <div className="company-logo w-auto">
+                      <img
+                        className=""
+                        src={data.imgURL}
+                        alt="skylark"
+                        style={{ maxHeight: "60px" }}
+                      />
+                    </div>
+                    <p className="text-muted">Trust us to give you the best!</p>
+                    <h5 className="fw-bold mb-1">MID & SENIOR LEVEL HIRING</h5>
+                    <p className="fw-semibold">Specialised in</p>
+                    {categories.map((data, index) => (
+                      <Badge
+                        bg="white"
+                        className=" badeg text-dark rounded-pill px-3 py-2 my-2 mx-1"
+                        key={index}
+                      >
+                        {data}
+                      </Badge>
+                    ))}
+                    <div>
+                      <button className=" mt-4 px-5  py-2 rounded-pill company-btn">
+                        Contact Us
+                      </button>
+                    </div>
                   </div>
-                  <p className="text-muted">Trust us to give you the best!</p>
-                  <h5 className="fw-bold mb-1">MID & SENIOR LEVEL HIRING</h5>
-                  <p className="fw-semibold">Specialised in</p>
-                  {categories.map((data, index) => (
-                    <Badge
-                      bg="white"
-                      className=" badeg text-dark rounded-pill px-3 py-2 my-2 mx-1"
-                      key={index}
-                    >
-                      {data}
-                    </Badge>
-                  ))}
-                  <div>
-                    <button className=" mt-4 px-5  py-2 rounded-pill company-btn">
-                      Contact Us
-                    </button>
-                  </div>
-                </div>
-              ))}
-            </Slider>
+                ))}
+              </Slider>
+            </div>
           </div>
-        </div>
+        </Container>
       </div>
     </Container >
   );
