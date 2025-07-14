@@ -1,7 +1,6 @@
 import  { useState } from 'react';
 import { Dropdown, Form } from 'react-bootstrap';
-import './filterDropdown.css'; // Optional for some custom styles
-
+import './filterdropdown.css'; // Optional for some custom styles
 const FilterDropdown = ({bgColor, title, options }) => {
   const [selected, setSelected] = useState({});
   const [show, setShow] = useState(false);
