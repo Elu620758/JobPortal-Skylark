@@ -72,9 +72,6 @@ const categories = [
 ];
 
 export default function Counter() {
-
-
-
   // Custom Arrow Buttons
   const CustomArrow = ({ onClick, direction }) => (
     <button className={`arrow ${direction}`} onClick={onClick}>
@@ -109,7 +106,7 @@ export default function Counter() {
             </div>
           ))}
         </div>
-        <div className="top-sport m-0 col-5">
+        <div className="top-sport ms-0 col-5">
           <div className="sport text-center ">
             <div className="header text-white fw-bold">
               <h6>TOP HIRING COMPANIES</h6>
