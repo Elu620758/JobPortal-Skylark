@@ -1,0 +1,64 @@
+@media (max-width: 576px) {
+  .review-rating-wrapper h5,
+  .review-rating-wrapper h6,
+  .review-rating-wrapper .fw-semibold {
+    font-size: 1rem !important;
+  }
+
+  .review-rating-wrapper h1,
+  .review-rating-wrapper .display-4 {
+    font-size: 2rem !important;
+  }
+
+  .review-rating-wrapper p,
+  .review-rating-wrapper small,
+  .review-rating-wrapper .fw-medium,
+  .review-rating-wrapper .fw-bold,
+  .review-rating-wrapper span {
+    font-size: 0.85rem !important;
+  }
+
+  .review-rating-wrapper .text-end {
+    text-align: center !important;
+  }
+
+  .review-rating-wrapper .section-title {
+    font-size: 1.1rem !important;
+  }
+
+  .review-rating-wrapper .progress {
+    height: 6px !important;
+  }
+
+  .review-rating-wrapper .slider-container-review,
+  .review-rating-wrapper .px-4 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .review-rating-wrapper .p-3,
+  .review-rating-wrapper .p-4 {
+    padding: 1rem !important;
+  }
+
+  .review-rating-wrapper .mx-auto {
+    width: 90% !important;
+  }
+
+  .review-rating-wrapper .text-warning svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .review-rating-wrapper .fw-semibold.mb-3 {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .review-rating-wrapper .mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+
+  .review-rating-wrapper .rating-box {
+    min-height: 160px !important;
+  }
+}

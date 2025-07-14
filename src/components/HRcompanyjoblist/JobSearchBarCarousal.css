@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Search Box Styling */
+.search-box {
+  width: 100%;
+  overflow: hidden;
+}
+
+.search-box .col,
+.search-box .btn,
+.search-box input {
+  min-width: 0;
+  overflow: hidden;
+}
+
+.search-box {
+  background-color: #7dbff1 !important;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  min-width: 0;
+  overflow: hidden;
+}
+
+.scroll-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  color: #3996e7 !important;
+  font-size: 1.5rem;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.scroll-arrow:hover,
+.scroll-arrow:focus {
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+
+.left-arrow {
+  left: 0px;
+
+}
+
+.right-arrow {
+  right: 0px;
+}
+.input-icon-end {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  pointer-events: none; /* So the input still works properly */
+  font-size: 1.2rem; /* Adjust icon size if needed */
+}
+
+.category-pill {
+  padding: 12px 20px;
+  background-color: #fff;
+  border: 1px solid #d1d5db; /* light gray border */
+  border-radius: 30px; /* more rounded */
+  font-weight: 700;
+  font-size: 1rem;
+  color: #000;
+  text-align: center;
+  white-space: normal;
+  word-break: break-word;
+  max-width: 220px;
+  height: 70px;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-pill:hover {
+  background-color: #e6f0ff;
+  border-color: #424242;
+  color: rgb(98, 56, 98);
+  background-color: #fff;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #007bff;
+  font-size: 24px;
+}
+
+.react-horizontal-scrolling-menu--scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.react-horizontal-scrolling-menu--scroll-container {
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+  .search-box {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .search-box {
+    padding: 1rem !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .search-box {
+    padding: 1rem !important;
+  }
+}

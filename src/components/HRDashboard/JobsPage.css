@@ -1,0 +1,88 @@
+@media (max-width: 576px) {
+    .jobPage-card {
+        font-size: 0.85rem;
+    }
+
+    .jobPage-card h5,
+    .jobPage-card h6 {
+        font-size: 1rem !important;
+    }
+
+    .jobPage-card .info-icons svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .jobPage-card .badge,
+    .jobPage-card .rounded-pill {
+        font-size: 0.75rem !important;
+        padding: 4px 10px !important;
+    }
+
+    .jobPage-card .text-start,
+    .jobPage-card .text-md-end {
+        text-align: center !important;
+    }
+
+    .jobPage-card .d-flex.align-items-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jobPage-card .flex-wrap {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .jobPage-card .gap-2>* {
+        margin-bottom: 6px;
+    }
+
+    .jobPage-card .d-flex.justify-content-between {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .jobPage-card .align-self-start {
+        align-items: center !important;
+    }
+
+    .jobPage-card .d-flex.justify-content-md-start {
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    .jobPage-card .mt-md-0 {
+        margin-top: 1rem !important;
+    }
+
+    .jobPage-card .fs-6 {
+        font-size: 0.8rem !important;
+    }
+
+    .jobPage-card .fs-5 {
+        font-size: 0.9rem !important;
+    }
+
+    .jobPage-card .fs-4 {
+        font-size: 1rem !important;
+    }
+
+    .jobPage-card .btn {
+        padding: 6px 12px !important;
+        font-size: 0.85rem !important;
+        width: 100%;
+    }
+
+    .job-bullet {
+        display: none !important;
+    }
+
+    .ViewJobButton {
+        padding: 6px 16px !important;
+        font-size: 0.8rem !important;
+        width: auto !important;
+        min-width: 0 !important;
+    }
+
+}

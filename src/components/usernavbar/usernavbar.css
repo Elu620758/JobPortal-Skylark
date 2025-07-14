@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.image {
+  width: 14%;
+  height: auto;
+  padding: 10px;
+  margin: 0;
+}
+
+.navbar-brand {
+  margin-right: 0;
+}
+
+.nav-item {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  padding-right: 30px;
+  text-align: center;
+  padding-left: 5px;
+  font-size: medium;
+  
+}
+.nav-items {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal;
+  padding-right: 30px;
+  text-align: center;
+  padding-left: 5px;
+  font-size: medium;
+  color: #424242;
+  font-size: 16px;
+}
+#nav-link {
+  text-decoration: none;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+.btn-login button{
+  border-radius: 25px;
+  background-color: #FFD54F;
+  padding: 5px 25px;
+  border: none;
+  color: #212121;
+  white-space: nowrap;
+}
+
+@media(max-width:1025px){
+  .btn-login{
+  margin: 0%;
+  
+  }
+}
+
+
+@media (max-width: 768px) {
+  .btn-login {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  .custom-login-btn {
+    width: 90%;
+    text-align: center;
+  }
+}
+

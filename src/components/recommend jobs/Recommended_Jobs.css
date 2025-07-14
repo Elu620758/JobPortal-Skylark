@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.recommended-jobs-section {
+    position: relative;
+    margin-top: 30px;
+}
+
+.recommend_title {
+    font-weight: 700;
+    color: #1E88E5;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #666;
+}
+
+.job-card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+}
+
+.company-logo {
+    width: 64px;
+    height: auto;
+    object-fit: contain;
+}
+
+.job-title {
+    font-size: 18px;
+    font-weight: 600;
+    display: inline;
+}
+
+.badge-list .badge {
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 12px;
+}
+
+.badge-inine {
+    display: inline;
+}
+
+.job-info,
+.job-meta,
+.job-location {
+    font-size: 14px;
+}
+
+.btn-primary {
+    padding: 6px 16px;
+    font-weight: 600;
+}
+
+.hover-zoom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-zoom-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.apply-now-btn:hover {
+    background-color: #6a1b9a;
+    /* Slightly darker purple */
+    transform: scale(1.05);
+    /* Subtle zoom effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+    color: #fff;
+}
+
+.bookmark_icon-rcj {
+    display: flex;
+    align-items: start;
+    font-size: 16px !important;
+    height: 50px !important;
+    width: 50px !important;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(144, 238, 144, 0.3)
+}
+
+.icon_posistion-rcj {
+    position: relative;
+    right: 10px !important;
+    left: 5px !important;
+    top: 5px !important;
+}
+
+.icon_color-rcj {
+    color: #43A047;
+}
+
+@media (max-width: 768px) {
+    .company-logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+     .btn-mob {
+    display: flex;
+    justify-content: center;
+
+  }
+  .mb-1{
+    text-align: center;
+  }
+  .postedDate{
+    text-align: center;
+  }
+
+}

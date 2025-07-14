@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-check-input:checked {
+    background-color: #c41aaa;
+    border-color: #0d0d0d;
+}
+
+/* Responsive tweaks for small devices */
+@media (max-width: 576px) {
+    .recent-candidate-card {
+        font-size: 0.85rem;
+    }
+
+    .recent-candidate-card h5,
+    .recent-candidate-card h6 {
+        font-size: 1rem !important;
+    }
+
+    .recent-candidate-card .info-icons svg {
+        width: 16px;
+        height: 16px;
+    }
+
+    .recent-candidate-card .badge,
+    .recent-candidate-card .tag {
+        font-size: 0.75rem !important;
+        padding: 4px 10px !important;
+    }
+
+    .recent-candidate-card .form-check-input {
+        transform: scale(1.1);
+    }
+
+    .recent-candidate-card .text-start,
+    .recent-candidate-card .text-md-end {
+        text-align: center !important;
+    }
+
+    .recent-candidate-card .d-flex.align-items-center {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .recent-candidate-card .flex-wrap {
+        justify-content: center;
+    }
+
+    .recent-candidate-card .gap-2>* {
+        margin-bottom: 6px;
+    }
+
+    .recent-candidate-card .tag-separator {
+        display: none !important;
+    }
+}

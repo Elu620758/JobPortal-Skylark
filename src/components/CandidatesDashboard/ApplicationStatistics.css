@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.avatar-placeholder {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ccc;
+    flex-shrink: 0;
+}
+
+.action-btn {
+    background-color: #f1f1f1 !important;
+    border: none;
+    width: 36px;
+    min-width: 40px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.action-btn:hover {
+    background-color: #e2e2e2 !important;
+}
+
+.text424242 {
+    color: #424242 !important;
+}
+
+/* General text color */
+.text424242 {
+    color: #424242;
+}
+
+/* Responsive summary card sizing */
+@media (max-width: 576px) {
+    .summary-card {
+        width: 100% !important;
+        padding: 1rem !important;
+    }
+
+    .summary-card h5 {
+        font-size: 1.1rem;
+    }
+
+    .summary-card p {
+        font-size: 0.85rem;
+    }
+
+    .notification-container {
+        font-size: 0.9rem;
+    }
+
+    .recent-jobs h6 {
+        font-size: 1rem;
+    }
+
+    .recent-jobs .small {
+        font-size: 0.8rem;
+    }
+
+    .recent-jobs .fw-semibold {
+        font-size: 0.9rem;
+    }
+
+    .recent-jobs span {
+        font-size: 0.8rem;
+    }
+}
+
+/* Optional: Adjust chart container on small screens */
+@media (max-width: 576px) {
+    .chart-wrapper {
+        height: 250px !important;
+    }
+
+    .profile-header-bar {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 0.75rem;
+    }
+
+    .profile-header-bar h5 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .profile-header-bar .dropdown {
+        width: 100%;
+    }
+
+    .profile-header-bar .dropdown-toggle {
+        width: 100%;
+        text-align: left;
+    }
+
+    .notifi {
+        text-align: center !important;
+    }
+    
+    
+}

@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+
+.header-jobs h1 {
+    color: #1E88E5;
+    font-family: "Poppins";
+    font-weight: 700;
+}
+.bookmark_icon_position{
+    position: relative;
+    left: 25%;    
+    
+}
+
+.card-wrap {
+    /* width:450%;                 */
+    border-radius: 40px;
+    margin-bottom: 16px;
+    background-color: #1565C040;
+    display: flex;
+    flex-direction: column;   
+
+}
+
+.job-contant {
+    overflow: hidden;
+    background-color: #FFFFFF;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    display: flex;
+    position: relative;
+    right: 3%;
+
+
+
+}
+
+.job-contant img {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.jobs {
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+
+
+}
+
+.body-text {
+    width: auto;
+    display: flex;
+}
+
+.ctc {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: last baseline;
+}
+
+.ctc {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.job-card-bg {
+    background-color: #e3edf9;
+    /* light blue from Figma */
+}
+.lpa-position{
+    position: relative;
+    left: 10%;    
+}
+.viewButton_position{
+    position: relative;
+    right: 13%;
+}
+.job-card {
+  background-color: #d0e5fa;
+  border-radius: 25px;
+  height: auto;
+  width: 100%;
+}
+.jobs2 {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  align-content: center;
+
+}
+
+/* Responsive tweaks */
+
+/* 
+@media (max-width: 768px) {
+  .job-card h6 {
+    font-size: 1rem;
+  }
+
+  .job-card p {
+    font-size: 0.85rem;
+  }
+
+  .job-card button {
+    font-size: 0.85rem;
+    padding: 0.4rem 1.2rem;
+  }
+}
+
+ */
+
+  
+  
+  /* For screens <= 992px (tablet) */
+  /* @media (max-width: 992px) {
+    .card-wrap {
+      margin-left: 0.5rem !important;
+      margin-right: 0.5rem !important;
+    }
+  
+    .job-contant {
+      width: 100% !important;
+    }
+  } */
+  
+  /* For screens <= 768px (mobile landscape) */
+  @media (max-width: 768px) {
+    .card-wrap {
+      margin: 0 auto !important;
+    }
+  
+    .job-contant {
+      width: 100% !important;
+    }
+  }
+  
+  /* For screens <= 576px (mobile portrait) */
+  @media (max-width: 576px) {
+    .card-wrap {
+      margin: 0.5rem auto !important;
+    }
+  
+    .job-contant {
+      width: 100% !important;
+    }
+  }

@@ -1,0 +1,9 @@
+@media (max-width: 576px) {
+    .fs-small {
+        font-size: 0.85rem;
+    }
+
+    .rounded-4 {
+        border-radius: 12px !important;
+    }
+}
