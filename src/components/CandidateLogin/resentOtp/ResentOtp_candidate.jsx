@@ -3,7 +3,7 @@ import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import { FaAsterisk, FaGoogle, FaLinkedin, FaGithub } from 'react-icons/fa';
 // import { IoIosStar } from "react-icons/io";
 import './Candidate_resentOtp_login.css';
-import skylarkLogo from '../../../assets/image/skylarkLogo.png'
+import skylarkLogo from '../../../assets/image/skylarklogo';
 import { Link } from "react-router-dom";
 import UserNavbar from '../../usernavbar/UserNavbar';
 
