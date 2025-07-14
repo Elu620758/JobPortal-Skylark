@@ -18,12 +18,10 @@ import RecomendedJobsDashborad from './components/recommend jobs/RecomendedJobsD
 import CandidatequickProfilePage from './components/CandidateLogin/CandidateProfile/quickProfile'
 import Joblisiting from './components/joblisting/Joblisiting';
 import RecruiterDashboard from './components/Recruiterdashboard/RecruiterDashboard';
-import CandidateDashboardMain from './components/CandidatesDashboard/candidateDashboardMain'
-import JobDetailsPage from './components/JobDescription/jobDescription'
-
+import CandidateDashboardMain from './components/CandidatesDashboard/candidateDashboardMain';
+import JobDetailsPage from './components/JobDescription/jobDescription';
 import HrComapanyDashboard from './components/HrCompanyDashboard/HrComapanyDashboard';
-
-import HRDashboardMain from './components/HRDashboard/HRDashboardMain'
+import HRDashboardMain from './components/HRDashboard/HRDashboardMain';
 
 function App() {  
   return (
