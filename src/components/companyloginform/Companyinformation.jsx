@@ -1,5 +1,4 @@
 import React from "react";
-import "../companyloginform/Companyinformation.css";
 import { Container, Row, Col, Form } from "react-bootstrap";
 import logo from "../../assets/image/skylarklogoblue.png";
 import { HiOutlineChevronDoubleRight } from "react-icons/hi2";
